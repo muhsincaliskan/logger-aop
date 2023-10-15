@@ -11,3 +11,4 @@ After adding you have to use `EnableLogger` annotation in your application class
 * Unit test will be added.
 * Usage example and readme will be updated.
 * more log details can be added.
+  * after throw can be added
