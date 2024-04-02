@@ -17,7 +17,17 @@ configurations {
         extendsFrom annotationProcessor
     }
 }
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.muhsincaliskan'
+            artifactId = 'logger-aop'
+            version = '1.2'
 
+            from components.java
+        }
+    }
+}
 repositories {
     mavenCentral()
 }
